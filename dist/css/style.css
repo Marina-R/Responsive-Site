@@ -1,3 +1,19 @@
+@media (max-width: 478px) {
+  .banner {
+    height: 250px; }
+    .banner div {
+      font: 35px Verdana, Arial, sans-serif;
+      padding-top: 80px; } }
+@media (min-width: 479px) {
+  .banner {
+    height: 380px; }
+    .banner div {
+      font: 55px Verdana, Arial, sans-serif;
+      padding-top: 100px; } }
+@media (min-width: 979px) {
+  body {
+    width: 980px;
+    margin: 0 auto; } }
 header ul {
   font: 16px Verdana, Arial, sans-serif;
   padding: 0;
@@ -16,19 +32,16 @@ header ul {
       color: black; }
 
 .banner {
-  height: 250px;
   background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true"); }
   .banner div {
     text-align: center;
-    font: 35px Verdana, Arial, sans-serif;
     color: white;
-    padding-top: 80px; }
+    text-shadow: 1px 1px 2px black; }
     .banner div p {
       margin: 0 auto; }
 
 .choose-your-plan {
   height: 565px;
-  width: 380px;
   margin: 30px  auto;
   background-color: #f1f2f2;
   border: 2px solid #E2E2E2; }
@@ -82,8 +95,7 @@ header ul {
 .terms {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 0 auto;
-  width: 330px; }
+  margin: 0 auto; }
   .terms .header {
     padding-bottom: 15px;
     color: black;
