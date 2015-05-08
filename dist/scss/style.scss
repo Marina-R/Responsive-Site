@@ -9,6 +9,32 @@ $major-color: #716a71;
 		padding-top:80px;
 	}
 	}
+	.choose-your-plan {
+	height: 565px;
+		.small-banner {
+		height: 220px;
+			.usage {
+				font-size: 20px;
+			}
+			.plan-cost{
+			font-size: 95px;
+			}
+			.per-month {
+				font-size: 18px;
+			}
+		}
+		.benefits {
+			height: 45px;
+			line-height: 45px;
+		}
+		.choose {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.choose-button {
+			width: 90px;
+		}
+	}
 }	
 @media (min-width: 479px){
 	.banner {
@@ -18,8 +44,68 @@ $major-color: #716a71;
 		padding-top:100px;
 	}
 	}
+	.choose-your-plan {
+	height: 565px;
+		.small-banner {
+		height: 220px;
+			.usage {
+				font-size: 20px;
+			}
+			.plan-cost{
+			font-size: 95px;
+			}
+			.per-month {
+				font-size: 18px;
+			}
+		}
+		.benefits {
+			height: 45px;
+			line-height: 45px;
+		}
+		.choose {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.choose-button {
+			width: 90px;
+		}
+	}
 }
 @media (min-width: 767px){
+	.banner {
+		height: 310px;
+		div {
+			font: 45px $major-font;
+		}
+	}
+	.choose-your-plan {
+		height: 450px;
+		width: 186px;
+		.small-banner {
+		height: 170px;
+			.usage {
+				font-size: 15px;
+			}
+			.plan-cost{
+			font-size: 75px;
+			}
+			.per-month {
+				font-size: 15px;
+			}
+		}
+		.benefits {
+			height: 35px;
+			line-height: 35px;
+			font-size: 15px;
+		}
+		.choose {
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+		.choose-button {
+			width: 70px;
+		}
+	}
 
 }
 @media (min-width: 979px){
@@ -63,7 +149,6 @@ header {
 	}
 }
 .choose-your-plan {
-	height: 565px;
 	margin: 30px  auto;
 	background-color: #f1f2f2;
 	border: 2px solid #E2E2E2;
@@ -77,42 +162,36 @@ header {
 		background-color: black;
 	}
 	.small-banner {
-		height: 220px;
 		.usage {
 			color: white;
 			text-align: center;
-			font: 18px $major-font;
+			font: $major-font;
 			padding-top: 30px;
 			letter-spacing: 3px;
 		}
 		.plan-cost {
 			color: white;
 			text-align: center;
-			font: 95px $major-font;
+			font: $major-font;
 			letter-spacing: 3px;
 		}
 		.per-month {
 			color: white;
 			opacity: 0.4;
 			text-align: center;
-			font: 18px $major-font;
+			font: $major-font;
 			letter-spacing: 3px;
 		}
 	}
 	.benefits {
-		height: 45px;
 		text-align: center;
 		color: $major-color;
-		line-height: 45px;
 		border-bottom: 2px solid #E2E2E2;
 	}
 	.choose {
 		background-color: white;
-		padding-top: 15px;
-		padding-bottom: 15px;
 	}
 	.choose-button {
-			width: 90px;
 			height: 30px;
 			background-color: white;
 			border-radius: 35px;
@@ -122,7 +201,6 @@ header {
 			font-weight: bold;
 			color: black;
 			margin: 0 auto;
-
 		}
 }	
 .terms {
