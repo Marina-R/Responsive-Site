@@ -1,0 +1,106 @@
+header ul {
+  font: 16px Verdana, Arial, sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  height: 30px; }
+  header ul li {
+    float: left;
+    display: inline-block;
+    margin-left: 30px; }
+    header ul li a {
+      color: #716a71;
+      padding-top: 15px;
+      padding-left: 10px;
+      text-decoration: none; }
+    header ul li .pricing {
+      color: black; }
+
+.banner {
+  height: 250px;
+  background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true"); }
+  .banner div {
+    text-align: center;
+    font: 35px Verdana, Arial, sans-serif;
+    color: white;
+    padding-top: 80px; }
+    .banner div p {
+      margin: 0 auto; }
+
+.choose-your-plan {
+  height: 565px;
+  width: 380px;
+  margin: 30px  auto;
+  background-color: #f1f2f2;
+  border: 2px solid #E2E2E2; }
+  .choose-your-plan .plan-5 {
+    background-color: #40843D; }
+  .choose-your-plan .plan-25 {
+    background-color: #203574; }
+  .choose-your-plan .plan-45 {
+    background-color: black; }
+  .choose-your-plan .small-banner {
+    height: 220px; }
+    .choose-your-plan .small-banner .usage {
+      color: white;
+      text-align: center;
+      font: 18px Verdana, Arial, sans-serif;
+      padding-top: 30px;
+      letter-spacing: 3px; }
+    .choose-your-plan .small-banner .plan-cost {
+      color: white;
+      text-align: center;
+      font: 95px Verdana, Arial, sans-serif;
+      letter-spacing: 3px; }
+    .choose-your-plan .small-banner .per-month {
+      color: white;
+      opacity: 0.4;
+      text-align: center;
+      font: 18px Verdana, Arial, sans-serif;
+      letter-spacing: 3px; }
+  .choose-your-plan .benefits {
+    height: 45px;
+    text-align: center;
+    color: #716a71;
+    line-height: 45px;
+    border-bottom: 2px solid #E2E2E2; }
+  .choose-your-plan .choose {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .choose-your-plan .choose-button {
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border-radius: 35px;
+    border: 2px solid #E2E2E2;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto; }
+
+.terms {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 330px; }
+  .terms .header {
+    padding-bottom: 15px;
+    color: black;
+    font: 20px Verdana, Arial, sans-serif; }
+  .terms .text {
+    color: #716a71;
+    line-height: 25px; }
+
+footer {
+  background-color: black;
+  height: 75px;
+  text-align: center;
+  color: #838383;
+  line-height: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  footer a {
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

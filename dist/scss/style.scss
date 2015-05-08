@@ -1,0 +1,132 @@
+$major-font: Verdana, Arial, sans-serif;
+$major-color: #716a71;
+
+header {
+	ul {
+	font: 16px $major-font;
+	padding:0;
+	margin: 0 auto;
+	height:30px;
+		li {
+			float: left;
+			display: inline-block;
+			margin-left: 30px;
+			a {
+				color: $major-color;
+				padding-top: 15px;
+				padding-left: 10px;
+				text-decoration:none;
+			}
+			.pricing {
+				color: black;
+			}
+		}
+	}
+}
+
+
+.banner {
+	height: 250px;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/responsive-site/blob/master/background.jpg?raw=true");
+	div {
+		text-align: center;
+		font: 35px $major-font;
+		color: white;
+		padding-top:80px;
+		p {
+			margin: 0 auto;
+		}
+	}
+}
+.choose-your-plan {
+	height: 565px;
+	width: 380px;
+	margin: 30px  auto;
+	background-color: #f1f2f2;
+	border: 2px solid #E2E2E2;
+	.plan-5 {
+		background-color: #40843D;
+	}
+	.plan-25 {
+		background-color: #203574;
+	}
+	.plan-45 {
+		background-color: black;
+	}
+	.small-banner {
+		height: 220px;
+		.usage {
+			color: white;
+			text-align: center;
+			font: 18px $major-font;
+			padding-top: 30px;
+			letter-spacing: 3px;
+		}
+		.plan-cost {
+			color: white;
+			text-align: center;
+			font: 95px $major-font;
+			letter-spacing: 3px;
+		}
+		.per-month {
+			color: white;
+			opacity: 0.4;
+			text-align: center;
+			font: 18px $major-font;
+			letter-spacing: 3px;
+		}
+	}
+	.benefits {
+		height: 45px;
+		text-align: center;
+		color: $major-color;
+		line-height: 45px;
+		border-bottom: 2px solid #E2E2E2;
+	}
+	.choose {
+		background-color: white;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.choose-button {
+			width: 90px;
+			height: 30px;
+			background-color: white;
+			border-radius: 35px;
+			border: 2px solid #E2E2E2;
+			text-align: center;
+			line-height: 30px;
+			font-weight: bold;
+			color: black;
+			margin: 0 auto;
+
+		}
+}	
+.terms {
+	padding-top: 30px;
+	padding-bottom:30px;
+	margin: 0 auto;
+	width: 330px;
+	.header {
+		padding-bottom: 15px;
+		color: black;
+		font: 20px $major-font;
+	}
+	.text {
+		color: $major-color;
+		line-height: 25px;
+	}
+}
+footer {
+	background-color: black;
+	height: 75px;
+	text-align: center;
+	color: #838383;
+	line-height: 25px;
+	padding-top: 10px;
+	padding-bottom:15px;
+	a {
+		color: white;
+	}
+
+}
