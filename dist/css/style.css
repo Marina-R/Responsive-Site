@@ -129,8 +129,9 @@ footer {
   .second-part {
     clear: left; } }
 @media (min-width: 979px) {
-  body {
+  section.plans, section.main {
     width: 980px;
     margin: 0 auto; } }
+  }
 
 /*# sourceMappingURL=style.css.map */
